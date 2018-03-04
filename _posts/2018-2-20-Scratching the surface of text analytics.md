@@ -53,6 +53,71 @@ behave|	big	|centuries|	facing|	interesting|	later|	makes	| matter| 	particle |	
 1	|0|	0	|0|	0	|1	|0	|0	|0	|0	|1	|0	|1	|0	|0	|0|
 
 
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>behave</th>
+      <th>big</th>
+      <th>centuries</th>
+      <th>facing</th>
+      <th>interesting</th>
+      <th>later</th>
+      <th>makes</th>
+      <th>matter</th>
+      <th>particle</th>
+      <th>physics</th>
+      <th>question</th>
+      <th>questions</th>
+      <th>research</th>
+      <th>study</th>
+      <th>way</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
