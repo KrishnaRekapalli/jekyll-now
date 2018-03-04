@@ -21,7 +21,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 Cvectorizer = CountVectorizer(stop_words='english')
 
 Cvectorizer.fit_transform(trainText)
-print(Cvectorizer)
 
 print(Cvectorizer.vocabulary_)
 
@@ -29,18 +28,28 @@ print(Cvectorizer.vocabulary_)
 
 ```python
 
-CountVectorizer(analyzer='word', binary=False, decode_error='strict',
-        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
-        lowercase=True, max_df=1.0, max_features=None, min_df=1,
-        ngram_range=(1, 1), preprocessor=None, stop_words='english',
-        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
-        tokenizer=None, vocabulary=None)
-{'particle': 8, 'physics': 9, 'study': 13, 'matter': 7, 'makes': 6, 'behave': 0, 'way': 14, 'interesting': 4, 'question': 10, 'centuries': 2, 'research': 12, 'later': 5, 'facing': 3, 'big': 1, 'questions': 11}
-In [58]:
+{'behave': 0,
+ 'big': 1,
+ 'centuries': 2,
+ 'facing': 3,
+ 'interesting': 4,
+ 'later': 5,
+ 'makes': 6,
+ 'matter': 7,
+ 'particle': 8,
+ 'physics': 9,
+ 'question': 10,
+ 'questions': 11,
+ 'research': 12,
+ 'study': 13,
+ 'way': 14}
 
 ```
 
 
+behave|	big	|centuries|	facing|	interesting|	later|	makes	| matter| 	particle |	physics| 	question	| questions |	research |	study	| way |
+0	|0|	0	|0	|0	|0	|0	|0	|1	|0	|0	|0	|0	|0|	0	|0|
+1	|0|	0	|0|	0	|1	|0	|0	|0	|0	|1	|0	|1	|0	|0	|0|
 
 
 | Tables        | Are           | Cool  |
