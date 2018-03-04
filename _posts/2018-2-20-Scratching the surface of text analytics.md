@@ -48,6 +48,7 @@ print(Cvectorizer.vocabulary_)
 
 
 behave|	big	|centuries|	facing|	interesting|	later|	makes	| matter| 	particle |	physics| 	question	| questions |	research |	study	| way |
+--- | --- | ---|--- | --- | ---|--- | --- | ---|--- | --- | ---|--- | --- | ---|
 0	|0|	0	|0	|0	|0	|0	|0	|1	|0	|0	|0	|0	|0|	0	|0|
 1	|0|	0	|0|	0	|1	|0	|0	|0	|0	|1	|0	|1	|0	|0	|0|
 
